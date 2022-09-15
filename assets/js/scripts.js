@@ -45,10 +45,20 @@ if(boolean) {
     console.log('As long as boolean is true, this will print')
 }
 
+let unknownNumber = 42
+
 if(ten == 10) {
     console.log('number')
 } else if(ten == 'ten') {
     console.log('string')
 } else {
     console.log('unknown')
+}
+
+if(ten > unknownNumber) {
+    console.log('Unknown number is less than 10')
+} else if(ten < unknownNumber) {
+    console.log('Unknown number is greater than 10')
+} else {
+    console.log('Unknown number is 10')
 }
